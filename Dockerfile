@@ -1,7 +1,5 @@
 FROM debian:jessie
 
-MAINTAINER Mike du Heaume <mduheaume@strathcom.com>
-
 RUN apt-get update
 RUN apt-get install -y memcached
 
